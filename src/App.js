@@ -43,15 +43,7 @@ render() {
   let unautharized = datalist.filter(obj => obj.type == '2');
   console.log(" anautharized....", unautharized);
 
-  // {
-  //   datalist.filter((value) => { //for searching divice
-  //     if (value.divice === "") {
-  //       return true
-  //     }
-  //     else if (value.divice?.includes(searchdivice)) {
-  //       return true
-  //     }
-  //   })
+ 
 
   return (
     <div className="App">
