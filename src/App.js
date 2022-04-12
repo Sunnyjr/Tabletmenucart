@@ -12,7 +12,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { datalist: Data.Object };
-    this.handleChange = this.handleChange.bind(this);
+   
   }
   onDiviceClick = (ele, i) => {
     let datalist = this.state.datalist;
@@ -26,14 +26,7 @@ class App extends React.Component {
     this.setState({ datalist: datalist }); // tell the actual state  that the state is updated    
   }
 
-  handleChange(e) {
-    let currentlist = [];  // Variable to hold the original version of the list
-    let newlist = [];  // Variable to hold the filtered list before putting into state
-
-      if(e.target.value == ""){
-        currentlist = this.props.
-      }
-  }
+ 
 
 render() {
 
